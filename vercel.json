@@ -1,5 +1,6 @@
 {
   "framework": null,
+  "installCommand": "echo 'Skip install'",
   "buildCommand": "echo 'Static site'",
   "outputDirectory": "public"
 }
