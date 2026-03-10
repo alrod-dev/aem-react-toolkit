@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AEM React Toolkit - Adobe Experience Manager Components</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: linear-gradient(135deg, #0f172a 0%, #1e1a2e 100%); color: #e2e8f0; min-height: 100vh; display: flex; align-items: center; justify-content: center; }
+    .container { max-width: 800px; padding: 48px; text-align: center; }
+    .icon { font-size: 64px; margin-bottom: 24px; }
+    h1 { font-size: 2.8rem; font-weight: 800; margin-bottom: 16px; background: linear-gradient(135deg, #e84855, #ff6b6b); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .subtitle { font-size: 1.15rem; color: #94a3b8; margin-bottom: 40px; line-height: 1.6; }
+    .features { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-bottom: 40px; text-align: left; }
+    .feature { background: rgba(30, 41, 59, 0.8); border: 1px solid rgba(148, 163, 184, 0.1); border-radius: 12px; padding: 20px; }
+    .feature h3 { font-size: 0.95rem; color: #e84855; margin-bottom: 8px; }
+    .feature p { font-size: 0.85rem; color: #94a3b8; line-height: 1.5; }
+    .tech { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-bottom: 32px; }
+    .tech span { padding: 4px 12px; background: rgba(232,72,85,0.1); border: 1px solid rgba(232,72,85,0.3); border-radius: 20px; font-size: 0.8rem; color: #e84855; }
+    .btn { display: inline-block; margin-top: 24px; padding: 12px 32px; background: linear-gradient(135deg, #e84855, #ff6b6b); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; transition: opacity 0.2s; }
+    .btn:hover { opacity: 0.9; }
+    .footer { margin-top: 32px; font-size: 0.85rem; color: #64748b; }
+    .footer a { color: #e84855; text-decoration: none; }
+    @media (max-width: 640px) { .features { grid-template-columns: 1fr; } h1 { font-size: 2rem; } }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="icon">🧩</div>
+    <h1>AEM React Toolkit</h1>
+    <p class="subtitle">A comprehensive React component library for Adobe Experience Manager (AEM) integration, featuring reusable UI components, Sling Model mappings, and Storybook documentation.</p>
+    <div class="features">
+      <div class="feature">
+        <h3>AEM Components</h3>
+        <p>Pre-built React components mapped to AEM Sling Models for seamless content authoring</p>
+      </div>
+      <div class="feature">
+        <h3>Storybook Documentation</h3>
+        <p>Interactive component documentation with live examples, controls, and usage guidelines</p>
+      </div>
+      <div class="feature">
+        <h3>Sling Model Integration</h3>
+        <p>TypeScript interfaces aligned with AEM Sling Model exports for type-safe content delivery</p>
+      </div>
+      <div class="feature">
+        <h3>Responsive & Accessible</h3>
+        <p>WCAG-compliant components with mobile-first responsive design and keyboard navigation</p>
+      </div>
+    </div>
+    <div class="tech">
+      <span>React</span>
+      <span>TypeScript</span>
+      <span>Adobe AEM</span>
+      <span>Storybook</span>
+      <span>Vite</span>
+      <span>Tailwind CSS</span>
+      <span>Sling Models</span>
+    </div>
+    <a href="https://github.com/alrod-dev/aem-react-toolkit" class="btn" target="_blank">View on GitHub</a>
+    <div class="footer">
+      Built by <a href="https://github.com/alrod-dev" target="_blank">Alfredo Wiesner</a>
+    </div>
+  </div>
+</body>
+</html>
