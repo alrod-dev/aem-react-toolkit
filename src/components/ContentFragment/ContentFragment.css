@@ -1,0 +1,55 @@
+.aem-cf {
+  margin: 1.5rem 0;
+}
+
+.aem-cf__title {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.aem-cf__description {
+  margin: 0 0 1rem 0;
+  color: #666;
+}
+
+.aem-cf__fields {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.aem-cf__field {
+  border-left: 3px solid #0078d4;
+  padding-left: 1rem;
+}
+
+.aem-cf__field-name {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.aem-cf__field-value {
+  color: #666;
+  line-height: 1.6;
+}
+
+.aem-cf--empty,
+.aem-cf--loading,
+.aem-cf--error {
+  padding: 2rem;
+  text-align: center;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+
+.aem-cf--empty p,
+.aem-cf--loading p {
+  margin: 0;
+  color: #999;
+  font-style: italic;
+}

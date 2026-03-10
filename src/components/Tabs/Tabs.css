@@ -1,0 +1,62 @@
+.aem-tabs {
+  margin: 1rem 0;
+}
+
+.aem-tabs__header {
+  display: flex;
+  border-bottom: 2px solid #e0e0e0;
+  background-color: #f5f5f5;
+  border-radius: 4px 4px 0 0;
+}
+
+.aem-tabs__tab {
+  flex: 1;
+  padding: 1rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  color: #666;
+  transition: all 0.3s ease;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+}
+
+.aem-tabs__tab:hover {
+  background-color: #e8e8e8;
+  color: #333;
+}
+
+.aem-tabs__tab--active {
+  color: #0078d4;
+  border-bottom-color: #0078d4;
+  background-color: white;
+}
+
+.aem-tabs__content {
+  background-color: white;
+  border-radius: 0 0 4px 4px;
+  border: 1px solid #e0e0e0;
+  border-top: none;
+}
+
+.aem-tabs__panel {
+  padding: 1.5rem;
+  display: none;
+}
+
+.aem-tabs__panel--active {
+  display: block;
+}
+
+.aem-tabs--empty {
+  padding: 2rem;
+  text-align: center;
+  color: #999;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+
+.aem-tabs__placeholder {
+  font-style: italic;
+}

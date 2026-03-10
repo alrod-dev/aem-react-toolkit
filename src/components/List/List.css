@@ -1,0 +1,46 @@
+.aem-list {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
+
+.aem-list--unordered {
+  list-style-type: disc;
+}
+
+.aem-list--ordered {
+  list-style-type: decimal;
+}
+
+.aem-list__item {
+  margin: 0.5rem 0;
+  line-height: 1.6;
+}
+
+.aem-list__link {
+  color: #0078d4;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.aem-list__link:hover {
+  text-decoration: underline;
+}
+
+.aem-list__description {
+  margin: 0.25rem 0 0 0;
+  color: #666;
+  font-size: 0.875rem;
+}
+
+.aem-list--empty {
+  padding: 1.5rem;
+  text-align: center;
+  color: #999;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+
+.aem-list--empty p {
+  margin: 0;
+  font-style: italic;
+}

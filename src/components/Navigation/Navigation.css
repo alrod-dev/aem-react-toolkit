@@ -1,0 +1,87 @@
+.aem-nav {
+  background-color: #333;
+  border-radius: 4px;
+}
+
+.aem-nav__menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.aem-nav__item {
+  position: relative;
+}
+
+.aem-nav__item-content {
+  display: flex;
+  align-items: center;
+}
+
+.aem-nav__link {
+  display: block;
+  padding: 1rem 1.5rem;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.aem-nav__link:hover {
+  background-color: #555;
+}
+
+.aem-nav__item--active > .aem-nav__item-content > .aem-nav__link {
+  background-color: #0078d4;
+}
+
+.aem-nav__toggle {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  transition: transform 0.3s ease;
+  font-size: 0.75rem;
+}
+
+.aem-nav__toggle--expanded {
+  transform: rotate(180deg);
+}
+
+.aem-nav__submenu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #555;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.aem-nav__submenu .aem-nav__item {
+  width: 100%;
+}
+
+.aem-nav__submenu .aem-nav__link {
+  padding: 0.75rem 1.5rem;
+  padding-left: 3rem;
+}
+
+.aem-nav__submenu .aem-nav__link:hover {
+  background-color: #777;
+}
+
+.aem-nav--empty {
+  padding: 1.5rem;
+  text-align: center;
+  color: #999;
+  background-color: #f5f5f5;
+}
+
+.aem-nav--empty p {
+  margin: 0;
+  font-style: italic;
+}

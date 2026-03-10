@@ -1,0 +1,63 @@
+.aem-embed {
+  margin: 1.5rem 0;
+}
+
+.aem-embed__wrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: #000;
+}
+
+.aem-embed__wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.aem-embed__wrapper > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.aem-embed--twitter,
+.aem-embed--instagram,
+.aem-embed--facebook {
+  padding: 1rem;
+}
+
+.aem-embed--twitter .aem-embed__wrapper,
+.aem-embed--instagram .aem-embed__wrapper,
+.aem-embed--facebook .aem-embed__wrapper {
+  padding-bottom: auto;
+  height: auto;
+}
+
+.aem-embed--html .aem-embed__wrapper {
+  padding-bottom: auto;
+  height: auto;
+}
+
+.aem-embed--empty {
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+.aem-embed__placeholder {
+  color: #999;
+  font-style: italic;
+  text-align: center;
+}

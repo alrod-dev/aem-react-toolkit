@@ -1,0 +1,16 @@
+.aem-separator {
+  margin: 2rem 0;
+  border-top: 1px solid #e0e0e0;
+}
+
+.aem-separator--solid {
+  border-top-style: solid;
+}
+
+.aem-separator--dashed {
+  border-top-style: dashed;
+}
+
+.aem-separator--dotted {
+  border-top-style: dotted;
+}

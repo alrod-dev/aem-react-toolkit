@@ -1,0 +1,63 @@
+.aem-text {
+  margin: 1rem 0;
+}
+
+.aem-text__content {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.aem-text__content--rich {
+  font-size: 1rem;
+}
+
+.aem-text__content--rich p {
+  margin: 0.5rem 0;
+}
+
+.aem-text__content--rich a {
+  color: #0078d4;
+  text-decoration: none;
+}
+
+.aem-text__content--rich a:hover {
+  text-decoration: underline;
+}
+
+.aem-text__content--rich strong {
+  font-weight: 600;
+}
+
+.aem-text__content--rich em {
+  font-style: italic;
+}
+
+.aem-text__content--rich ul,
+.aem-text__content--rich ol {
+  margin: 0.5rem 0;
+  padding-left: 2rem;
+}
+
+.aem-text__content--rich li {
+  margin: 0.25rem 0;
+}
+
+.aem-text__content--rich blockquote {
+  border-left: 3px solid #0078d4;
+  padding-left: 1rem;
+  margin: 1rem 0;
+  color: #666;
+}
+
+.aem-text--empty {
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aem-text__placeholder {
+  color: #999;
+  font-style: italic;
+  margin: 0;
+}

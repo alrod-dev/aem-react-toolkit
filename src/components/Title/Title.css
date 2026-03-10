@@ -1,0 +1,43 @@
+.aem-title {
+  margin: 1.5rem 0 1rem 0;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.aem-title--h1 {
+  font-size: 2.5rem;
+}
+
+.aem-title--h2 {
+  font-size: 2rem;
+}
+
+.aem-title--h3 {
+  font-size: 1.75rem;
+}
+
+.aem-title--h4 {
+  font-size: 1.5rem;
+}
+
+.aem-title--h5 {
+  font-size: 1.25rem;
+}
+
+.aem-title--h6 {
+  font-size: 1rem;
+}
+
+.aem-title--empty {
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aem-title__placeholder {
+  color: #999;
+  font-style: italic;
+  margin: 0;
+  font-size: 0.875rem;
+}

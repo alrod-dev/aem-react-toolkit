@@ -1,0 +1,14 @@
+.aem-container {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.aem-container--row {
+  display: flex;
+  flex-direction: row;
+}
+
+.aem-container--column {
+  display: flex;
+  flex-direction: column;
+}
