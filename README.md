@@ -3,7 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/aem-react-toolkit.svg)](https://www.npmjs.com/package/aem-react-toolkit)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A professional, production-ready toolkit for integrating React with Adobe AEM's SPA Editor. Built on deep enterprise experience with AEM + React solutions at Gorilla Group.
+A professional, production-ready toolkit for integrating React with Adobe AEM's SPA Editor. Built on deep enterprise experience with AEM + React solutions.
 
 ## Overview
 
@@ -383,4 +383,4 @@ See [CHANGELOG.md](./CHANGELOG.md) for version history.
 
 ---
 
-**Built with enterprise AEM + React expertise from Gorilla Group**
+**Built with enterprise AEM + React expertise**
